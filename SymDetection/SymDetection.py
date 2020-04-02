@@ -57,8 +57,8 @@ if __name__ == '__main__':
             par_num = int(arg)
 
     if file_name == "null":
-        print("Usage: ./SymDetection.py [-f|--file file] [options]")
-        print("Try './SymDetection.py --help' for more information.")
+        print("Usage: python3 SymDetection.py [-f|--file file] [options]")
+        print("Try 'python3 SymDetection.py --help' for more information.")
         sys.exit()
     else:
         #linux下需要下载antiword把doc转化docx，暂时不兼容了

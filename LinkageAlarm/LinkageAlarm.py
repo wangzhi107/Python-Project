@@ -178,7 +178,7 @@ if __name__ == '__main__':
         elif sys.argv[1].find('.mp4') != -1:
             SelectMode(1, sys.argv[1])
         else:
-            print("参数异常，请输入图片")
+            print("参数异常，请输入JPG图片或MP4视频")
             sys.exit()
     else:
         SelectMode(2, "")
